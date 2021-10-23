@@ -1,3 +1,4 @@
+/* 1 - Dados limpos; */
 const data_test1 = [{
     'product_id': 'IN2350',
     'product_name': 'Teclado Mecânico Rozar K600',
@@ -55,7 +56,7 @@ const result_test1 = [{
     'product_stock_quantity': 22,
     'product_brand': 'Fenix'
 }];
-
+/* 2 - Sem duplicatas; */
 const data_test2 = [{
     'product_id': 'IN2350',
     'product_name': 'Teclado Mecânico Rozar K600',
@@ -122,7 +123,7 @@ const result_test2 = [{
     'product_stock_quantity': 22,
     'product_brand': 'Fenix'
 }];
-
+/* 3 - Sem Produto sem estoque; */
 const data_test3 = [{
     'product_id': 'IN2350',
     'product_name': 'Teclado Mecânico Rozar K600',
@@ -198,7 +199,7 @@ const result_test3 = [{
     'product_stock_quantity': 22,
     'product_brand': 'Fenix'
 }];
-
+/* 4 - Mais de 2 duplicatas (3); */
 const data_test4 = [{
     'product_id': 'IN2350',
     'product_name': 'Teclado Mecânico Rozar K600',
@@ -301,7 +302,7 @@ const result_test4 = [{
     'product_stock_quantity': 22,
     'product_brand': 'Fenix'
 }];
-
+/* 5 - Mais de 1 produto sem estoque;  */
 const data_test5 = [{
     'product_id': 'IN2350',
     'product_name': 'Teclado Mecânico Rozar K600',
